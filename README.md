@@ -27,22 +27,22 @@ See more details in our Devpose: [link](https://devpost.com/software/danse-scrip
 
 **5 nodes + depot (1) &  4 vehicles** 
 
-<img align="left" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
+<img align="left" width="350" height="160" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
 
 <br clear="right"/>
 
-<img align="right" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
+<img align="right" width="350" height="160" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
 
 <br clear="left"/>
 <br/>
 
 **4 nodes + depot (1) &  3 vehicles** 
 
-<img align="left" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
+<img align="left" width="350" height="160" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
 
 <br clear="right"/>
 
-<img align="right" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
+<img align="right" width="350" height="160" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
 
 <br clear="left"/>
 
