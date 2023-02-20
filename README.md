@@ -1,7 +1,8 @@
 <h1 align=center> Vehicle Routing Problem </h1>
-The Vehicle routing problem (VRP) is an NP-hard optimization problem that has been an interest of research fordecades in science and industry. The gist of the project is to plan routes of vehicles to deliver goods to a fixed number of customers with optimal efficiency. Classical tools and methods provide good approximations to reach the optimal global solution. Quantum computing and quantum machine learning provide a new approach to solving combinatorial optimization of problems faster due to inherent speedups of quantum effects. Many solutions of VRP are offered across different quantum computing platforms using hybrid algorithms such as quantum approximate optimization algorithm and quadratic unconstrained binary optimization. In this work, we build a basic VRP solver for 3 and 4 cities using the variational quantum eigensolver on a fixed ansatz. The Project work is further extended to evaluate the robustness of the solution in several examples of noisy quantum channels. The performance of the quantum algorithm depends heavily on what noise model is used. In general, noise is *detrimental*, but not equally so among different noise sources.
+The Vehicle routing problem (VRP) is an NP-hard optimization problem that has been an interest of research fordecades in science and industry. The gist of the project is to plan routes of vehicles to deliver goods to a fixed number of customers with optimal efficiency. Classical tools and methods provide good approximations to reach the optimal global solution. Quantum computing and quantum machine learning provide a new approach to solving combinatorial optimization of problems faster due to inherent speedups of quantum effects. Many solutions of VRP are offered across different quantum computing platforms using hybrid algorithms such as quantum approximate optimization algorithm and quadratic unconstrained binary optimization. In this work, we build a basic VRP solver for 3 and 4 cities using the variational quantum eigensolver on a fixed ansatz. The Project work is further extended to evaluate the robustness of the solution in several examples of noisy quantum channels. The performance of the quantum algorithm depends heavily on what noise model is used. In general, noise is detrimental, but not equally so among different noise sources. 
+<br/><br/>
 
-<br>**The overall workflow we demonstrate comprises:** 
+**The overall workflow we demonstrate comprises:** 
   1. Establish the client locations. Normally, these would be available ahead of the day of deliveries from a database. In our use case, we generate these randomly.
   2. compute the pair-wise distances, travel times, or similar. In our case, we consider the Euclidean distance, “as the crow flies”, which is perhaps the simplest possible.
   3. compute the actual routes. This step is run twice, actually. First, we obtain a reference value by a run of a classical solver *(IBM CPLEX)* on the classical computer. Second, we run an alternative, hybrid algorithm partly on the quantum computer.
@@ -10,9 +11,7 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 See more details in our Devpose: [link](https://devpost.com/software/danse-scription)
 
-<img src="motioncuegif.gif" width="800"/>
-
-**The project procedure can be summarized as follows:**<br>
+**The project procedure can be summarized as follows:**
   1. Initialization *Install pip install 'qiskit-optimization[cplex]*
   2. initializer class that randomly places the nodes in a 2-D plane and computes the distance between them.
   3. Classical solution using *IBM ILOG CPLEX*
@@ -26,20 +25,33 @@ See more details in our Devpose: [link](https://devpost.com/software/danse-scrip
   11. Solve the problem via *MinimumEigenOptimizer*
   12. Visualize the solution
 
-*5 nodes + depot (1) &  4 vehicles* 
-<a href="https://github.com/ShisheerKaushik24/ShisheerKaushik24">
-  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png" width="200" height="100" align="right"/>
-  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png" width="200" height="100" align="left"/>
-<a/>
-*4 nodes + depot (1) &  3 vehicles*
-<a href="https://github.com/ShisheerKaushik24/ShisheerKaushik24">
-  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png" width="200" height="100" align="right"/>
-  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png" width="200" height="100" align="left"/>
-</a>
-**Architecture Design**
-<img src="https://user-images.githubusercontent.com/56566212/218358650-66b42272-046c-411a-a580-aa16ca5fb7d3.png" width="800"/>
+**5 nodes + depot (1) &  4 vehicles** 
 
-# Resources
+<img align="left" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
+
+<br clear="right"/>
+
+<img align="right" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
+
+<br clear="left"/>
+<br/>
+
+**4 nodes + depot (1) &  3 vehicles** 
+
+<img align="left" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
+
+<br clear="right"/>
+
+<img align="right" width="450" height="360" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
+
+<br clear="left"/>
+
+<br/><br/>
+The comparison plots present the  depot with a star and the selected routes for the vehicles with arrows. Note that in this particular case, we can find the optimal solution of the QP formulation, which happens to coincide with the optimal solution of the ILP.
+
+Keep in mind that VQE is an heuristic working on the QP formulation of the Ising Hamiltonian, though. For suitable choices of A, local optima of the QP formulation will be feasible solutions to the ILP. While for some small instances, as above, we can find optimal solutions of the QP formulation which coincide with optima of the ILP, finding optimal solutions of the ILP is harder than finding local optima of the QP formulation, in general, which in turn is harder than finding feasible solutions of the ILP. Even within the VQE, one may provide stronger guarantees, for specific variational forms (trial wave functions).
+
+# Resources 
 **Training our model**
 - [A Quantum Approximate Optimization Algorithm](https://arxiv.org/abs/1411.4028/)
 - [Qiskit-Optimization](https://github.com/Qiskit/qiskit-optimization/blob/59d293d9d258eb3e8d780804252c1bdf5553e339/docs/tutorials/06_examples_max_cut_and_tsp.ipynb/)
