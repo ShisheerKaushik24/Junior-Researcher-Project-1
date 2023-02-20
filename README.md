@@ -27,13 +27,15 @@ See more details in our Devpose: [link](https://devpost.com/software/danse-scrip
   12. Visualize the solution
 
 *5 nodes + depot (1) &  4 vehicles* 
-
-<img src="motioncuegif.gif" width="800"/>
-
+<a href="https://github.com/ShisheerKaushik24/ShisheerKaushik24">
+  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png" width="200" height="100" align="right"/>
+  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png" width="200" height="100" align="left"/>
+<a/>
 *4 nodes + depot (1) &  3 vehicles*
-
-<img src="motioncuegif.gif" width="800"/>
-
+<a href="https://github.com/ShisheerKaushik24/ShisheerKaushik24">
+  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png" width="200" height="100" align="right"/>
+  <img src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png" width="200" height="100" align="left"/>
+</a>
 **Architecture Design**
 <img src="https://user-images.githubusercontent.com/56566212/218358650-66b42272-046c-411a-a580-aa16ca5fb7d3.png" width="800"/>
 
