@@ -26,24 +26,23 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 **5 nodes + depot (1) &  4 vehicles** 
 
-<img align="left" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
+<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
 
-<br clear="right"/>
+<br/><br/>
 
-<img align="right" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
+<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
 
-<br clear="left"/>
 <br/>
 
 **4 nodes + depot (1) &  3 vehicles** 
 
-<img align="left" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
+<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
 
-<br clear="right"/>
+<br/><br/>
 
-<img align="right" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
+<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
 
-<br clear="left"/>
+<br/>
 
 <br/><br/>
 The comparison plots between Cost's obtained from Classical and Quantum Algorithms present the  depot with a star and the selected routes for the vehicles with arrows. Note that in this particular case, we can find the optimal solution of the QP formulation, which happens to coincide with the optimal solution of the ILP.
