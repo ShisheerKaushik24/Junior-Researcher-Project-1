@@ -9,7 +9,6 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
   4. visualization of the results. In our case, this is again a simplistic plot.
   5. In the following, we first explain the model, before we proceed with the installation of the pre-requisites and the data loading.
 
-See more details in our Devpose: [link](https://devpost.com/software/danse-scription)
 
 **The project procedure can be summarized as follows:**
   1. Initialization *Install pip install 'qiskit-optimization[cplex]*
