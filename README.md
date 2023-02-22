@@ -11,11 +11,11 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 
 **The project procedure can be summarized as follows:**
-  1. Initialization *Install pip install 'qiskit-optimization[cplex]*
+  1. Initialization *Install pip install `qiskit-optimization[cplex]`
   2. initializer class that randomly places the nodes in a 2-D plane and computes the distance between them.
-  3. Classical solution using *IBM ILOG CPLEX*
+  3. Classical solution using `IBM ILOG CPLEX`
   4. Instantiate the classical optimizer class
-  5. Solve the problem in a classical fashion via *CPLEX*
+  5. Solve the problem in a classical fashion via `CPLEX`
   6. Visualize the solution
   7. Quantum solution from the ground up
   8. Instantiate the quantum optimizer class with parameters
