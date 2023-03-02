@@ -21,7 +21,7 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
   8. Instantiate the quantum optimizer class with parameters
   9. Check if the binary representation is correct
   10. Encode the problem as an instance of *QuadraticProgram*
-  11. Solve the problem via *MinimumEigenOptimizer*
+  11. Solve the problem via `MinimumEigenOptimizer`
   12. Visualize the solution
 
 **5 nodes + depot (1) &  4 vehicles** 
