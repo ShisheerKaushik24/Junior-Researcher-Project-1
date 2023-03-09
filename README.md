@@ -26,6 +26,31 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 **5 nodes + depot (1) &  4 vehicles** 
 
+<table align="center">
+  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
+  <tr>
+    <td><img src="asset/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="asset/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
+  <tr>
+    <td><img src="asset/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="asset/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+  </tr>
+</table>
+
+<table align="center">
+  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
+  <tr>
+    <td><img src="asset/4_3_SPSA.png" alt="On Simulator [qasm]" width="65%"></td>
+    <td><img src="asset/4_3_LB.png" alt="On Simulator [qasm]" width="65%"></td>
+    <td><img src="asset/4_3_SL.png" alt="On real Quantum " width="65%"></td>
+  </tr>
+</table>
+
 <img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
 
 <br/><br/>
