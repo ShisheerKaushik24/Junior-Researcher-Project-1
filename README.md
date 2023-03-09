@@ -24,50 +24,36 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
   11. Solve the problem via `MinimumEigenOptimizer`
   12. Visualize the solution
 
+**4 nodes + depot (1) &  3 vehicles**
+
+<table align="center">
+  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
+  <tr>
+    <td><img src="assets/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="assets/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+  </tr>
+</table>
+
+**4 nodes + depot (1) &  3 vehicles, using `SPSA`, `L_BFGS_B` and `SLQSP`** 
+
+<table align="center">
+  <caption>Comparison results obtained when 3 discreet optimizers were utilized and simulated on `qasm_simulation` </caption>
+  <tr>
+    <td><img src="assets/4_3_SPSA.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="assets/4_3_LB.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="assets/4_3_SL.png" alt="On real Quantum " width="85%"></td>
+  </tr>
+</table>
+
 **5 nodes + depot (1) &  4 vehicles** 
 
 <table align="center">
   <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
   <tr>
-    <td><img src="asset/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="asset/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
+    <td><img src="assets/5_4_C.png" alt="On Simulator [qasm]" width="85%"></td>
+    <td><img src="assets/5_4_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
   </tr>
 </table>
-
-<table align="center">
-  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
-  <tr>
-    <td><img src="asset/4_3_C.png" alt="On Simulator [qasm]" width="85%"></td>
-    <td><img src="asset/4_3_Q.png" alt="On real Quantum Computer [ibmq-bogota]" width="85%"></td>
-  </tr>
-</table>
-
-<table align="center">
-  <caption>Comparison results of `qasm_simulation` and `ibm_oslo`</caption>
-  <tr>
-    <td><img src="asset/4_3_SPSA.png" alt="On Simulator [qasm]" width="65%"></td>
-    <td><img src="asset/4_3_LB.png" alt="On Simulator [qasm]" width="65%"></td>
-    <td><img src="asset/4_3_SL.png" alt="On real Quantum " width="65%"></td>
-  </tr>
-</table>
-
-<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_C.png">
-
-<br/><br/>
-
-<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/5_4_Q.png">
-
-<br/>
-
-**4 nodes + depot (1) &  3 vehicles** 
-
-<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_C.png">
-
-<br/><br/>
-
-<img align="centre" width="350" height="200" src="https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/blob/master/assets/4_3_Q.png">
-
-<br/>
 
 <br/><br/>
 The comparison plots between Cost's obtained from Classical and Quantum Algorithms present the  depot with a star and the selected routes for the vehicles with arrows. Note that in this particular case, we can find the optimal solution of the QP formulation, which happens to coincide with the optimal solution of the ILP.
