@@ -67,3 +67,13 @@ Keep in mind that VQE is an heuristic working on the QP formulation of the Ising
 - [Qiskit-Optimization](https://github.com/Qiskit/qiskit-optimization/blob/59d293d9d258eb3e8d780804252c1bdf5553e339/docs/tutorials/06_examples_max_cut_and_tsp.ipynb/)
 - [Integer Programming Formulation of Traveling Salesman Problems](https://www.semanticscholar.org/paper/Integer-Programming-Formulation-of-Traveling-Miller-Tucker/f310643a22ec50a74a64f6203932b9407215d964/)
 - [The Traveling Salesman Problem: A Computational Study](https://press.princeton.edu/books/hardcover/9780691129938/the-traveling-salesman-problem)
+
+# License
+
+This work is licensed under a [Apache 2.0](LICENSE) license.
+
+<hr>
+
+Created and maintained by [@Shisheer S Kaushik][1].
+
+[1]: https://github.com/ShisheerKauhik24
