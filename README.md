@@ -11,7 +11,6 @@ More detailed information about the project can be found [here:](https://shishee
   4. visualization of the results. In our case, this is again a simplistic plot.
   5. In the following, we first explain the model, before we proceed with the installation of the pre-requisites and the data loading.
 
-
 **The project procedure can be summarized as follows:**
   1. Initialization *Install pip install `qiskit-optimization[cplex]`
   2. initializer class that randomly places the nodes in a 2-D plane and computes the distance between them.
