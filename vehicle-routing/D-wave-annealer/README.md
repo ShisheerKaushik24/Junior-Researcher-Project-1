@@ -49,7 +49,7 @@ Then, you can start running the solvers (e.g., you can run scripts from the "exa
 If you want to change something in communication with D-Wave, check DWaveSolvers.py. There you can change solvers' configuration and change *solve_qubo* function. As long as 'solve_qubo' function returns QUBO solution like all D-Wave's solvers, the rest of the code should work properly. 
 
 ### Input
-There are two input formats. You can find examples in the *formats* directory.
+There are two input formats. You can find examples in the [Formats](formats) directory.
 
 #### Full input
 The full input needs a graph file and a test file. In a graph file, you need to provide edges description: each line should contain two nodes' ids and cost. Cost is related to what you want to optimize, for example: distance or time. In a test file, you need to provide information about depots, destinations and vehicles. If you want to solve an instance of **MDVRP** (without capacities), you only need to provide depots' and destinations' ids and the number of vehicles. If you want to solve **CMDVRP**, you also need to provide destinations' weights and vehicles' capacities. 
