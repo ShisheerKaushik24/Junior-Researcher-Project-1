@@ -9,6 +9,9 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 More detailed information about the project can be found [here:](https://shisheerkaushik.netlify.app/project/benchmarking-and-solving-vehicle-routing-problem-on-various-qpus/)
 
+### Solving VRP using various Quantum optimization algorithms
+Various Quantum optimzation algorithms like QAOA, VQE etc., is performed by using ibm-qiskit-sdk.
+
 **The overall workflow we demonstrate comprises:** 
   1. Establish the client locations. Normally, these would be available ahead of the day of deliveries from a database. In our use case, we generate these randomly.
   2. compute the pair-wise distances, travel times, or similar. In our case, we consider the Euclidean distance, “as the crow flies”, which is perhaps the simplest possible.
@@ -65,6 +68,9 @@ More detailed information about the project can be found [here:](https://shishee
 The comparison plots between Cost's obtained from Classical and Quantum Algorithms present the  depot with a star and the selected routes for the vehicles with arrows. Note that in this particular case, we can find the optimal solution of the QP formulation, which happens to coincide with the optimal solution of the ILP.
 
 Keep in mind that VQE is an heuristic working on the QP formulation of the Ising Hamiltonian, though. For suitable choices of A, local optima of the QP formulation will be feasible solutions to the ILP. While for some small instances, as above, we can find optimal solutions of the QP formulation which coincide with optima of the ILP, finding optimal solutions of the ILP is harder than finding local optima of the QP formulation, in general, which in turn is harder than finding feasible solutions of the ILP. Even within the VQE, one may provide stronger guarantees, for specific variational forms (trial wave functions).
+
+### Solving VRP using Quantum Annealing technique
+Similarly an attempt to to use Quantum Annealing technique is performed by using Dwave-ocean-sdk and the implementation data and its test results can be found [here:](https://github.com/ShisheerKaushik24/Junior-Researcher-Project-/tree/master/vehicle-routing/D-wave-annealer)
 
 # Resources 
 **Vehicle Routing Problem**
