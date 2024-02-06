@@ -9,6 +9,8 @@ The Vehicle routing problem (VRP) is an NP-hard optimization problem that has be
 
 More detailed information about the project can be found [here:](https://shisheerkaushik.netlify.app/project/benchmarking-and-solving-vehicle-routing-problem-on-various-qpus/)
 
+Access the [Experience Letter](asset/experience_letter.jpeg)
+
 ### Solving VRP using various Quantum optimization algorithms
 Various Quantum optimzation algorithms like QAOA, VQE etc., is performed by using ibm-qiskit-sdk.
 
